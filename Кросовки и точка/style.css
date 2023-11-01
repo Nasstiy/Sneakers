@@ -1,0 +1,157 @@
+@font-face {
+    font-family: "Anonymous Pro";
+    src: url(fonts/AnonymousPro-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+  font-family: "Anonymous Pro";
+  src: url(fonts/AnonymousPro-Regular.ttf);
+}
+
+body{
+  font-family: "Anonymous Pro", sans-serif;
+}
+
+p, h2, h1, ul, body{
+  margin: 0;
+  padding: 0;
+}
+
+.header{
+  background-color: rgb(255, 255, 255);
+  padding: 30px 0;
+}
+
+.header_logo{
+  width: 212px;
+
+}
+
+.header_content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ul_header{
+  list-style: none;
+  display: flex;
+  line-height: normal;
+  font-size: 20px;
+  gap: 24px;
+}
+.ul_header li a {
+  font-size: 20px;
+  color: #000;
+  text-decoration: none;
+}
+
+.shose_blok{
+  background-color: #F1F1F1;
+  padding: 32px 0;
+}
+
+h1 {
+    font-size: 48px;
+    color: black;
+    margin-bottom: 24px;
+}
+
+.container {
+  max-width: 1440px;
+  padding: 0 140px;
+  box-sizing: border-box;
+  margin: 0 auto; 
+}
+
+.h1_container{
+  font-weight: 500px;
+}
+
+.card{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.sneaker{
+  align-items: center;
+  justify-content: center;
+  width: calc(33.333% - 16px);
+  border-radius: 12px;
+  background-color: white;
+}
+.title_text-blok{
+  width: 321px;
+  padding: 32px 24px 32px 24px;
+ 
+}
+
+.conteiner_title{
+  margin-bottom: 10px;
+  font-weight: 700px;
+}
+
+.conteiner_text{
+  font-weight: 400px;
+}
+
+h2 {
+	font-size: 26px;
+  color: black;
+}
+
+.img-conteiner {
+	width: 100%;
+}
+
+.footer{
+  background-color: #121723;
+  padding: 32px 0 20px 0;
+}
+
+.footer_content{
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.footer-top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+
+.footer_logo{
+  width: 212px;
+}
+
+.ul_footer{
+  list-style: none;
+  display: flex;
+  gap: 24px;
+  list-style: none;
+}
+
+.ul_footer li a {
+  font-size: 20px;
+  color: #FFFF;
+  text-decoration: none;
+
+}
+
+.line{
+  width: 100%;
+  height: 1px;
+  background-color: #A1A6B4;
+}
+
+.footer_text-content{
+  color: #A1A6B4;
+  font-size: 16px;
+  text-align: center;
+  width: 100%;
+  font-weight: 700px;
+}
